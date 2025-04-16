@@ -8,16 +8,6 @@ if temperature > 30:
 print("Weather check complete.") # This line always runs
 
 
-
-2
-3
-4
-5
-6
-7
-8
-9
-10
 # --- Example 2: 'if-else' ---
 age = 17
 
