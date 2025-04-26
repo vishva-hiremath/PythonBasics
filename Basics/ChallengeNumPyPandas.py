@@ -21,17 +21,15 @@ print(f"Printing after adding Total Cost: {df}")
 #4. Select only the rows where the ‘Price’ is above a certain value.
 print(f"Printing products having price > 100: {df[df['Price'] > 100]}")
 
-ges = pd.read_csv('/Users/Downloads/test.csv');
-ges['DEPOSIT_DT'] = '4/16/2025'
+ges = pd.read_csv('/Users/aa949501/Downloads/Status_Prod_Apr22_5pm.csv');
+#ges['DEPOSIT_DT'] = '4/16/2025'
 #ges.to_csv('/Users/Downloads/test.csv', index=False)
+#print(f"Printing  {ges[ges['MEMBER_NUMBER'] == '69JRY32']}")
 
-print("\nData type counts:\n", ges.nunique())
+#df.loc[df['diagnosis'] == 'B', ['diagnosis','radius_mean','perimeter_mean','area_mean']]
+result = ges.loc[ges['MEMBER_NUMBER'] == '69JRY32', ['MEMBER_NUMBER','STATUS','CODE', 'EXPIRATION_DT']]
+print(result)
 
-print("\nEXPIRATION_DATE:\n", ges['EXPIRATION_DATE'].unique())
-
-print("\nASSET_CODE_ID:\n",ges.groupby('ASSET_CODE_ID').count())
-
-print("\n Describe:", ges.describe())
 
 
 

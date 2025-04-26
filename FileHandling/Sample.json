@@ -1,0 +1,49 @@
+[{
+  "customer": {
+    "Program": "XYS",
+    "Number": "1",
+    "firstName": "Virat",
+    "lastName": "Kohli",
+    "partnerDetails": {
+      "partnerAccountNumber":"17"
+    }
+  },
+  "benefit": {
+    "benefitCode": "2124",
+    "expirationDate": "2026-03-31",
+    "effectiveDate": "2025-02-26",
+    "quantity": "1",
+    "bonusCode": "swswsw"
+  },
+  "enhanceWithMiles": {
+    "mileageAmount":25000,
+    "maxAvailable": 2
+  },
+  "audit":{
+    "createdBy":"1234"
+  }
+}, {
+  "customer": {
+    "Program": "XYS",
+    "Number": "2",
+    "firstName": "AB",
+    "lastName": "D",
+    "partnerDetails": {
+      "partnerAccountNumber":"18"
+    }
+  },
+  "benefit": {
+    "benefitCode": "2124",
+    "expirationDate": "2026-03-31",
+    "effectiveDate": "2025-02-26",
+    "quantity": "1",
+    "bonusCode": "swswsw"
+  },
+  "enhanceWithMiles": {
+    "mileageAmount":25000,
+    "maxAvailable": 2
+  },
+  "audit":{
+    "createdBy":"1234"
+  }
+}]
